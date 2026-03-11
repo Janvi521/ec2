@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT ? Number(process.env.PORT) : 3000;
 
 app.get("/", (_req, res) => {
-  res.status(200).type("text").send("hello");
+  res.status(200).type("text").send("CHALO BHAGWAN");
 });
 
 app.get("/api/janvi", (_req, res) => {
